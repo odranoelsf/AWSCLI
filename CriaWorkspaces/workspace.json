@@ -1,0 +1,31 @@
+{ 
+ 
+  
+ 
+"Workspaces" : [ 
+ 
+
+ 
+    { 
+ 
+        "DirectoryId" : "d-9067795b33", 
+ 
+	"UserName" : "", 
+ 
+        "BundleId" : "wsb-3fnpwlcdv", 
+ 
+        "WorkspaceProperties": { 
+ 
+          "RunningMode": "ALWAYS_ON", 
+ 
+          "RootVolumeSizeGib": 80, 
+ 
+          "UserVolumeSizeGib": 10 
+ 
+        } 
+ 
+    } 
+ 
+] 
+ 
+}
