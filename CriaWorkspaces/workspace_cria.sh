@@ -1,8 +1,12 @@
 #Created By: Leonardo Fernandes
 #Email: odranoelsf@gmail.com
-#Version: v1.2
+#Version: v1.3
 #!/bin/bash
 NUM=0
+
+echo "Digite o DirectoryId"
+read directory;
+
 TotalUsers=$(cat ~/usuarios.txt | wc -l)
 
 while [ $NUM -le $TotalUsers ]; do
@@ -14,7 +18,7 @@ echo -e \
 "Workspaces" : [ \n 
 \n 
     { \n 
-        "DirectoryId" : "d-9067795b33", \n 
+        "DirectoryId" : ''"'${directory}"'', \n 
 	"UserName" : ''"'${userws}'"'', \n 
         "BundleId" : "wsb-3fnpwlcdv", \n 
         "WorkspaceProperties": { \n 
