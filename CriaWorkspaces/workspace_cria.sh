@@ -6,6 +6,8 @@ NUM=0
 
 echo "Digite o DirectoryId"
 read directory;
+echo "Digite o BundleID"
+read bundleid;
 
 TotalUsers=$(cat ~/usuarios.txt | wc -l)
 
@@ -18,9 +20,9 @@ echo -e \
 "Workspaces" : [ \n 
 \n 
     { \n 
-        "DirectoryId" : ''"'${directory}"'', \n 
-	"UserName" : ''"'${userws}'"'', \n 
-        "BundleId" : "wsb-3fnpwlcdv", \n 
+        "DirectoryId" : ''"'${directory}'"'', \n 
+	      "UserName" : ''"'${userws}'"'', \n 
+        "BundleId" : ''"'${bundleid}"'', \n 
         "WorkspaceProperties": { \n 
           "RunningMode": "ALWAYS_ON", \n 
           "RootVolumeSizeGib": 80, \n 
