@@ -22,7 +22,7 @@ echo -e \
     { \n 
         "DirectoryId" : ''"'${directory}'"'', \n 
 	      "UserName" : ''"'${userws}'"'', \n 
-        "BundleId" : ''"'${bundleid}"'', \n 
+        "BundleId" : ''"'${bundleid}''"'', \n 
         "WorkspaceProperties": { \n 
           "RunningMode": "ALWAYS_ON", \n 
           "RootVolumeSizeGib": 80, \n 
