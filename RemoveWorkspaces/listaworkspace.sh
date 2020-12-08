@@ -16,6 +16,8 @@ aws workspaces describe-workspaces --directory-id $DirectoryId --user-name "$ope
 let NUM=NUM+1;
 done
 
+hjvjhvgkj
+
 sed -i 's/\            "WorkspaceId": //g' computers.txt
 sed -i 's/\ //g' computers.txt
 sed -i 's/\,//g' computers.txt
